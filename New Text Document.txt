@@ -1,0 +1,7 @@
+https://stage-learn.carekarte.jp/admin/auth   => fdsadmin@gmail.com/12345678
+https://stage-learn.carekarte.jp/deltack52/auth   =>     fdsuser/fdsuser
+
+
+https://github.com/skyway/skyway-screenshare
+
+https://fds-ssc.backlog.jp/LoginDisplay.action?url=%2Fdashboard
