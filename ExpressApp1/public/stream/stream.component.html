@@ -1,0 +1,14 @@
+<div class="body-card-full lesson">
+  <div class="custom-card-header">
+    <h1 class="title-header">{{ 'COURSE.STREAM' | translate }}</h1>
+    <div *ngIf="showMessage" [class.alert-danger]="!isSuccess" [class.alert-success]="isSuccess" class="alert">
+      {{ message }}
+    </div>
+  </div>
+  <div class="custom-card-body">
+    <ngx-camera style="height: 800px; width: 100%;" [room]="streamId" [istream]="isStream" ></ngx-camera>
+  </div>
+  <div class="loading-indicator" [hidden]="isHiddenSpinner">
+    <mat-spinner mode="indeterminate"></mat-spinner>
+  </div>
+</div>
